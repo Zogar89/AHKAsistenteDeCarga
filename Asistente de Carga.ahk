@@ -462,5 +462,5 @@ Return
 #t::
 WinActivate, GisAysa - Internet Explorer ahk_class IEFrame
 Sleep, 50
-Send, {RShift Down}{f}{RShift Up}{e}{c}{h}{a}{:}{0}{2}{/}{/}{2}{0}{2}{2}{Space}{Space}{RShift Down}{m}{RShift Up}{e}{t}{r}{o}{s}{:}
+Send, {RShift Down}{f}{RShift Up}{e}{c}{h}{a}{:}{0}{1}{/}{/}{2}{0}{2}{2}{Space}{Space}{RShift Down}{m}{RShift Up}{e}{t}{r}{o}{s}{:}
 Return
