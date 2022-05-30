@@ -56,8 +56,8 @@ IniRead, ColumnaMetrosRastreados, Configuracion.ini, Columnas De Extraccion, Col
 			CustomColor = FFFFFF  ; Can be any RGB color (it will be made transparent below).
 			Gui, +LastFound +AlwaysOnTop +Caption -ToolWindow +Border +SysMenu +MinimizeBox +Resize -MaximizeBox ; +ToolWindow avoids a taskbar button and an alt-tab menu item.
 			Gui, Color, %CustomColor%
-			Gui, Font, s10  ; Set a large font size (32-point). 
-			Gui, Add, Text, w300 h180 vMyText cBlack,  ; XX & YY serve to auto-size the window.
+			Gui, Font, s9  ; Set a large font size (32-point). 
+			Gui, Add, Text, w300 h210 vMyText cBlack,  ; XX & YY serve to auto-size the window.
 			Gui, Add, Edit, w100 
 			Gui, Add, UpDown, vMyUpDown gExtraccion Range1-500, 1
 			Gui, Font, s6  ; Set a large font size (32-point). 
